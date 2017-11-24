@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(205, 207, 207);
+    
+    
+}
+
+
+h1, p, ul{
+    font-family: 'Spectral SC', serif;
+    margin: 0px;
+}
+
+#header{
+    height: 80px;
+    background-color: rgb(63, 63, 63);
+    width: 100vw;
+    position: fixed;
+    top:0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    
+    font-size: 30px;
+    padding-left: 10px; 
+}
+.logo a, a:hover, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.loginBox{
+    padding-right: 20px;   
+}
+
+.userN, .passW{
+    font-family: 'Montserrat', sans-serif;
+     padding: 0px;
+    height: 40px;
+    font-size: 15px;
+    width: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align:middle;  
+}
+
+
+.box{
+    height: 100%;
+    background-color: rgb(63, 63, 63);
+    
+    
+    width: 70vw;
+    min-width: 500px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+  
+}
+.loginButton{
+    border: none;
+    height: 30px;
+    width: 110 px;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    vertical-align:middle;
+}
+.logoutButton{
+    border: none;
+    height: 30px;
+    width: 120px;
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    vertical-align:middle;
+}
+
+
+
+#content{
+  
+    width: 100vw;
+    height:80vh;
+    margin-top: 60px;
+    padding-top: 150px;
+}
+
+   
+
+.box a, a:hover, a:visited{
+    font-family: 'Spectral SC', serif;
+    color: black;
+}
